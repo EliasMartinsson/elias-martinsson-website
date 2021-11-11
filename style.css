@@ -47,6 +47,7 @@ footer {
   border: black;
   border-style: solid;
   border-width: 2px;
+  padding:1%;
 }
 
 .home {
@@ -61,7 +62,7 @@ footer {
   border: 2px solid black;
   overflow-y: scroll;
   width: 15%;
-  height: 600px;
+  height: 700px;
   margin: 10px;
   padding: 10px;
 }
@@ -92,14 +93,61 @@ footer {
   left: 0;
   padding-bottom: 4%;
 }
-.contentRow {
+
+.contentrow1{
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2%;
+  gap: 20px;
 }
 
-.content {
+.contentrow2{
   display: flex;
-  flex-direction: column;
-  font-size: 15px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2%;
+  padding: 2%;
+  gap: 20px;
 }
 
+.content1{
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.content2{
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.content3{
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+.content4{
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+.content5{
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.content6{
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+
+@media (max-width: 600px) {
+  .image-thing-whatever {
+    width: 300px;
+  }
+}
