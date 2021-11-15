@@ -4,13 +4,13 @@
   font-family: Georgia, monospace;
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
 }
 
-a:hover{
-  color:#caa612;
+a:hover {
+  color: #caa612;
 }
 
 h1 {
@@ -18,14 +18,14 @@ h1 {
   font-size: 25px;
 }
 
-.logo{
+.logo {
   border-color: black;
   border-radius: 50%;
   border-style: solid;
 }
 
-.logo:hover{
-  border-color:#caa612;
+.logo:hover {
+  border-color: #caa612;
 }
 
 header {
@@ -55,13 +55,13 @@ h1 {
   border-radius: 5px;
 }
 
-.searchbar:hover{
-  border-color:#caa612;
+.searchbar:hover {
+  border-color: #caa612;
 }
 
 .pages {
   display: flex;
-  gap: 50%;
+  gap: 30%;
 }
 
 footer {
@@ -70,7 +70,7 @@ footer {
   border: black;
   border-style: solid;
   border-width: 2px;
-  padding:1%;
+  padding: 1%;
 }
 
 .home {
@@ -117,7 +117,7 @@ footer {
   padding-bottom: 4%;
 }
 
-.contentrow1{
+.contentrow1 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -125,7 +125,7 @@ footer {
   gap: 20px;
 }
 
-.contentrow2{
+.contentrow2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -134,50 +134,58 @@ footer {
   gap: 20px;
 }
 
-.content1{
+.content1 {
   border-color: black;
   border-style: solid;
   border-width: 3px;
 }
 
-.content2{
+.content2 {
   border-color: black;
   border-style: solid;
   border-width: 3px;
 }
 
-.content3{
+.content3 {
   border-color: black;
   border-style: solid;
   border-width: 3px;
 }
-.content4{
+.content4 {
   border-color: black;
   border-style: solid;
   border-width: 3px;
 }
-.content5{
-  border-color: black;
-  border-style: solid;
-  border-width: 3px;
-}
-
-.content6{
+.content5 {
   border-color: black;
   border-style: solid;
   border-width: 3px;
 }
 
-.account{
+.content6 {
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.account {
   width: 200%;
   border-radius: 25%;
- margin-right: 20%;
+  margin-right: 20%;
 }
 
-.account:hover{
-  border-color:#caa612;
+.account:hover {
+  border-color: #caa612;
 }
 
 .workouttop {
   padding: 2%;
+}
+
+.topimage {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
