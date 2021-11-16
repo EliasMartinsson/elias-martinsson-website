@@ -73,10 +73,20 @@ footer {
   padding: 1%;
 }
 
+.fronttop{
+  display: flex;
+  justify-content: space-between;
+}
+
 .deals {
   display: flex;
-  flex-direction: center;
-  justify-content: space-between;
+  flex-direction: column;
+  background-color: white;
+  width: 50%;
+  margin: 5%;
+  border: black;
+  border-style: solid;
+  border-width: 3px;
 }
 
 .scroll {
@@ -87,8 +97,9 @@ footer {
   overflow-y: scroll;
   width: 15%;
   height: 700px;
-  margin: 10px;
-  padding: 10px;
+  margin: 2%;
+  padding: 2%;
+background-color: white;
 }
 
 .contentrow1 {
@@ -173,4 +184,21 @@ footer {
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+.dealtitle{
+  display: flex;
+  flex-direction: column;
+  background-color:#007a78 ;
+  border-width: 1%;
+  border-style: solid;
+  border-color: black;
+}
+.options{
+  display: flex;
+  justify-content: space-around;
+  margin: 5%;
+  border: black;
+  border-width: 5%;
+  border-style: solid;
 }
