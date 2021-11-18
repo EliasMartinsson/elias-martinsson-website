@@ -194,10 +194,24 @@ background-color: white;
   border-style: solid;
   border-color: black;
 }
-.options{
+.descriptions{
   display: flex;
   justify-content: space-around;
   margin: 5%;
+}
+
+.descriptions div {
+  height: 300%;
+  border-width: 1%;
+  border-style: solid;
+  border-color: black;
+  padding: 2%;
+}
+.memberships {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5%;
+  margin-bottom: 1px;
   border: black;
   border-width: 5%;
   border-style: solid;
