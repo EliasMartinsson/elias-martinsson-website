@@ -209,7 +209,6 @@ background-color: white;
   justify-content: space-around;
   margin: 5%;
 }
-<<<<<<< HEAD
 .options option {
   padding: 5%;
   flex-basis: 100%;
@@ -259,7 +258,6 @@ background-color: white;
   padding: 1%;
   margin: 1%;
 }
-=======
 
 .descriptions div {
   height: 300%;
@@ -277,4 +275,3 @@ background-color: white;
   border-width: 5%;
   border-style: solid;
 }
->>>>>>> f42523f96d449f70adc431bac9775832b496cc94
