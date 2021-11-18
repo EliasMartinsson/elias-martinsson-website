@@ -13,6 +13,10 @@ a:hover {
   color: #caa612;
 }
 
+a h1:hover{
+  color: #caa612;
+}
+
 h1 {
   font-family: helvetica;
   font-size: 25px;
@@ -47,6 +51,7 @@ h1 {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-left: 1%;
 }
 
 .searchbar {
@@ -173,8 +178,13 @@ background-color: white;
   padding: 2%;
 }
 
-.topimage {
- 
+.nutritiontop{
+  padding: 2%;
+}
+.workout-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .home{
@@ -198,7 +208,53 @@ background-color: white;
   display: flex;
   justify-content: space-around;
   margin: 5%;
-  border: black;
-  border-width: 5%;
+}
+.options option {
+  padding: 5%;
+  flex-basis: 100%;
+  text-align: center;
+  border: solid black;
+  border-width: 1%;
+}
+
+.beginnersrow{
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.beginnersrow div{
+  border-width: 1%;
   border-style: solid;
+  border-color: black;
+  padding: 1%;
+  margin: 1%;
+}
+
+.intermediaterow{
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.intermediaterow div{
+  border-width: 1%;
+  border-style: solid;
+  border-color: black;
+  padding: 1%;
+  margin: 1%;
+}
+
+.advancedrow{
+  padding: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.advancedrow div{
+  border-width: 1%;
+  border-style: solid;
+  border-color: black;
+  padding: 1%;
+  margin: 1%;
 }
