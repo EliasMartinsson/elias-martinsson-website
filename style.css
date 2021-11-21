@@ -13,13 +13,14 @@ a:hover {
   color: #caa612;
 }
 
-a h1:hover{
+a h1:hover {
   color: #caa612;
 }
 
 h1 {
   font-family: helvetica;
   font-size: 25px;
+  margin: 1%;
 }
 
 .logo {
@@ -32,6 +33,7 @@ h1 {
   border-color: #caa612;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -43,14 +45,15 @@ header {
   border-width: 2px;
   padding: 0.5%;
   padding-right: 3%;
-  gap: 2%;
 }
 
-h1 {
+header h1 {
+  width: 10%;
   color: black;
   display: flex;
   align-items: center;
   gap: 20px;
+  margin: 0%;
   margin-left: 1%;
 }
 
@@ -78,7 +81,7 @@ footer {
   padding: 1%;
 }
 
-.fronttop{
+.fronttop {
   display: flex;
   justify-content: space-between;
 }
@@ -104,7 +107,7 @@ footer {
   height: 700px;
   margin: 2%;
   padding: 2%;
-background-color: white;
+  background-color: white;
 }
 
 .contentrow1 {
@@ -115,6 +118,16 @@ background-color: white;
   gap: 20px;
 }
 
+.contentrow1 div {
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  background-color: white;
+}
+
+.contentrow1 p {
+  padding: 5%;
+}
 .contentrow2 {
   display: flex;
   justify-content: space-evenly;
@@ -124,53 +137,22 @@ background-color: white;
   gap: 20px;
 }
 
-.content1 {
+.contentrow2 div {
   border-color: black;
   border-style: solid;
   border-width: 3px;
   background-color: white;
 }
-
-.content2 {
-  border-color: black;
-  border-style: solid;
-  border-width: 3px;
-  background-color: white;
+.contentrow2 p {
+  padding: 5%;
 }
-
-.content3 {
-  border-color: black;
-  border-style: solid;
-  border-width: 3px;
-  background-color: white;
-}
-.content4 {
-  border-color: black;
-  border-style: solid;
-  border-width: 3px;
-  background-color: white;
-}
-.content5 {
-  border-color: black;
-  border-style: solid;
-  border-width: 3px;
-  background-color: white;
-}
-
-.content6 {
-  border-color: black;
-  border-style: solid;
-  border-width: 3px;
-  background-color: white;
-}
-
-.account {
+.accountavatar {
   width: 200%;
   border-radius: 25%;
   margin-right: 20%;
 }
 
-.account:hover {
+.accountavatar:hover {
   border-color: #caa612;
 }
 
@@ -178,16 +160,33 @@ background-color: white;
   padding: 2%;
 }
 
-.nutritiontop{
+.nutritiontop {
   padding: 2%;
 }
 .workout-image {
-  width: 50%;
-  display: flex;
-  justify-content: center;
+  background-image: url(Deadlift.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
-.home{
+.workouttotal{
+  background-image: url(Pushup.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.workouttotal h1{
+  background-color: white;
+  width: 55%;
+}
+
+.home {
   min-height: 100vh;
   width: 100%;
   background-image: url(Background.jpg);
@@ -196,18 +195,26 @@ background-color: white;
   position: relative;
 }
 
-.dealtitle{
+.deals {
+  background-image: url(Squat.jpg);
+  border: #007a78;
+  border-width: 2%;
+  border-style: solid;
+}
+
+.dealtitle {
   display: flex;
   flex-direction: column;
-  background-color:#007a78 ;
+  background-color: #007a78;
   border-width: 1%;
   border-style: solid;
   border-color: black;
 }
-.descriptions{
+.descriptions {
   display: flex;
   justify-content: space-around;
   margin: 5%;
+  background-color: white;
 }
 .options option {
   padding: 5%;
@@ -217,46 +224,19 @@ background-color: white;
   border-width: 1%;
 }
 
-.beginnersrow{
+.workoutrow {
   padding: 5%;
   display: flex;
   justify-content: space-around;
 }
 
-.beginnersrow div{
+.workoutrow div {
   border-width: 1%;
   border-style: solid;
   border-color: black;
   padding: 1%;
   margin: 1%;
-}
-
-.intermediaterow{
-  padding: 5%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.intermediaterow div{
-  border-width: 1%;
-  border-style: solid;
-  border-color: black;
-  padding: 1%;
-  margin: 1%;
-}
-
-.advancedrow{
-  padding: 5%;
-  display: flex;
-  justify-content: space-around;
-}
-
-.advancedrow div{
-  border-width: 1%;
-  border-style: solid;
-  border-color: black;
-  padding: 1%;
-  margin: 1%;
+  background-color: white;
 }
 
 .descriptions div {
@@ -265,13 +245,132 @@ background-color: white;
   border-style: solid;
   border-color: black;
   padding: 2%;
+  background-color: white;
 }
 .memberships {
   display: flex;
   justify-content: space-evenly;
   margin: 5%;
   margin-bottom: 1px;
-  border: black;
+  border: #007a78;
   border-width: 5%;
   border-style: solid;
+  background-color: white;
+}
+
+.nutritionlayout {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.column-container {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  height: 40%;
+  margin: 5%;
+  margin-top: 0;
+  text-align: center;
+}
+
+.column p {
+  border-color: black;
+  border-width: 1%;
+  border-style: solid;
+  padding: 10%;
+  background-color: white;
+  margin-bottom: 5%;
+}
+
+.column img {
+  width: 50%;
+}
+
+.nutrition {
+  background-image: url(Food.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.subscriptions {
+  display: flex;
+  justify-content: space-around;
+  gap: 5%;
+  background-image: url(Superman.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.subscriptions div {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+
+.subscriptions h1 {
+  color: #004445;
+}
+
+.account {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10%;
+}
+
+.account div{
+  border: black solid;
+  border-width: 2%;
+  padding:3%;
+  width: 100%;
+}
+
+.avatar-container{
+  margin-top: 2%;
+  text-align: center;
+}
+
+.avatar-container input{
+  border: black solid;
+  border-width: 10px;
+  border-radius: 50%;
+  width: 10%;
+}
+
+.avatar-container input:hover{
+  border-color: #caa612;
+}
+
+.profile-row{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.profile img{
+  border-color: black;
+  border-radius: 50%;
+  border-style: solid;
+  width: 50%;
+}
+
+.about{
+  display: flex;
+  justify-content: flex-start;
+  margin: 2%;
+  background-color: #BFBFBF ;
+  padding: 5%;
+  border: 2px black solid;
+  border-radius: 15%;
 }
