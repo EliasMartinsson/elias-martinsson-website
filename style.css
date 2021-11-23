@@ -88,12 +88,15 @@ footer {
 .deals {
   display: flex;
   flex-direction: column;
-  background-color: white;
   width: 50%;
   margin: 50px;
   border: black;
   border-style: solid;
   border-width: 3px;
+  background-image: url(Dumbells.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 .scroll {
@@ -110,7 +113,7 @@ footer {
 
 .scroll h1{
   display: flex;
-  margin: auto;
+  flex-direction: column;
   background-color: #007a78;
   border-width: 1%;
   border-style: solid;
@@ -207,13 +210,6 @@ footer {
   position: relative;
 }
 
-.deals {
-  background-image: url(Squat.jpg);
-  border: #007a78;
-  border-width: 2%;
-  border-style: solid;
-}
-
 .dealtitle {
   display: flex;
   flex-direction: column;
@@ -252,7 +248,6 @@ footer {
 }
 
 .descriptions div {
-  height: 300%;
   border-width: 1%;
   border-style: solid;
   border-color: black;
@@ -394,4 +389,8 @@ footer {
 .about a {
   color: blue;
   text-decoration: underline blue;
+}
+
+.payment-details{
+  border-width: 0;
 }
