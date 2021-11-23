@@ -20,7 +20,7 @@ a h1:hover {
 h1 {
   font-family: helvetica;
   font-size: 25px;
-  margin: 1%;
+  margin: 10px;
 }
 
 .logo {
@@ -54,7 +54,7 @@ header h1 {
   align-items: center;
   gap: 20px;
   margin: 0%;
-  margin-left: 1%;
+  margin-left: 10px;
 }
 
 .searchbar {
@@ -91,7 +91,7 @@ footer {
   flex-direction: column;
   background-color: white;
   width: 50%;
-  margin: 5%;
+  margin: 50px;
   border: black;
   border-style: solid;
   border-width: 3px;
@@ -105,9 +105,17 @@ footer {
   overflow-y: scroll;
   width: 15%;
   height: 700px;
-  margin: 2%;
-  padding: 2%;
   background-color: white;
+  margin: 20px;
+}
+
+.scroll h1{
+  display: flex;
+  margin: auto;
+  background-color: #007a78;
+  border-width: 1%;
+  border-style: solid;
+  border-color: black;
 }
 
 .contentrow1 {
@@ -116,6 +124,11 @@ footer {
   align-items: center;
   padding: 2%;
   gap: 20px;
+}
+
+.scroll p{
+  margin: 20px;
+  padding: 2%;
 }
 
 .contentrow1 div {
@@ -313,7 +326,7 @@ footer {
 .subscriptions div {
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  margin: 50px;
 }
 
 .subscriptions h1 {
@@ -324,7 +337,7 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 10%;
+  margin: 100px;
 }
 
 .account div{
@@ -335,7 +348,7 @@ footer {
 }
 
 .avatar-container{
-  margin-top: 2%;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -368,7 +381,7 @@ footer {
 .about{
   display: flex;
   justify-content: flex-start;
-  margin: 2%;
+  margin: 20px;
   background-color: #BFBFBF ;
   padding: 5%;
   border: 2px black solid;
