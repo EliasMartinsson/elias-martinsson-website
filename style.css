@@ -33,7 +33,6 @@ h1 {
   border-color: #caa612;
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -185,7 +184,7 @@ footer {
   position: relative;
 }
 
-.workouttotal{
+.workouttotal {
   background-image: url(Pushup.jpg);
   min-height: 100vh;
   width: 100%;
@@ -194,7 +193,7 @@ footer {
   position: relative;
 }
 
-.workouttotal h1{
+.workouttotal h1 {
   background-color: white;
   width: 55%;
 }
@@ -340,10 +339,10 @@ footer {
   margin: 100px;
 }
 
-.account div{
+.account div {
   border: black solid;
   border-width: 2%;
-  padding:3%;
+  padding: 3%;
   width: 100%;
 }
 
@@ -352,18 +351,18 @@ footer {
   text-align: center;
 }
 
-.avatar-container input{
+.avatar-container input {
   border: black solid;
   border-width: 10px;
   border-radius: 50%;
   width: 10%;
 }
 
-.avatar-container input:hover{
+.avatar-container input:hover {
   border-color: #caa612;
 }
 
-.profile-row{
+.profile-row {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -371,14 +370,14 @@ footer {
   margin-left: 20%;
 }
 
-.profile img{
+.profile img {
   border-color: black;
   border-radius: 50%;
   border-style: solid;
   width: 50%;
 }
 
-.about{
+.about {
   display: flex;
   justify-content: flex-start;
   margin: 20px;
@@ -386,4 +385,13 @@ footer {
   padding: 5%;
   border: 2px black solid;
   border-radius: 15%;
+  gap: 80px;
+  flex-direction: column;
+  margin-bottom: 20%;
+  margin-top: 10%;
+}
+
+.about a {
+  color: blue;
+  text-decoration: underline blue;
 }
