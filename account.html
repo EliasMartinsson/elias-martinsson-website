@@ -47,32 +47,95 @@
         <div class="accountsettings">
           <h1>Account settings</h1>
           <p>
-            Here you can find your account settings and configure, customize and
-            enter preferences.
+            <em>Here you can find your account settings and configure, customize and
+              enter preferences.</em> 
+            <div class="accountaccess">
+              <div>
+                <h1>
+                  Settings
+                </h1>
+                <a href=""><img src="Gear.png" alt="" width="10%"></a>
+                <!--Här skulle jag haft en länk som gick till några inställningar men jag förmodar att jag skulle behövt javascript till den funktionen-->
+              </div>
+                <div>
+                  <input type="checkbox">Do you want to recieve our weekly online newsletter?
+                </div>
+                <div>
+                  <input type="text" placeholder="Email adress:">
+                </div>
+                <div>
+                  <input type="checkbox">Do you agree to sharing your data with musclesource?
+                </div>
+                <div>
+                  <input type="checkbox">Would you like to recieve emails regarding new products?
+                </div>
+              </div>
+
           </p>
         </div>
-        <div class="membership">
-          <h1>Current Membership and billing options</h1>
+        <div>
+          <h1>Current Membership and Payment</h1>
           <p>
-            View your current membership and perks, along with your payment
-            details.
+            <em>View your current membership and perks, along with your payment
+              details.</em>
           </p>
           <div class="payment-details">
-            <select name="creditcard" placeholder="Bank">
-              <option value="Visa">Visa</option>
-              <option value="Mastercard">Mastercard</option>
-              <option value="American-express">American express</option>
-              <div>
-                <input type="text" placeholder="Creditcard number" />
+             <div>
+               <h1>Payment details</h1>
+               <div class="credit-card-form">
+                <select name="creditcard" placeholder="bank">
+                  <option value="Visa">Visa</option>
+                  <option value="Mastercard">Mastercard</option>
+                  <option value="American-express">American express</option></select>
+                  <input type="text" placeholder="Card number" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Name on card">
+                  </div>
+                  <div>
+                    <strong>Expiring date</strong>
+                    <input type="month">
+                    <input type="password" placeholder="Security code">
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Billing adress">
+                  </div>
+
+               <button type="submit">Confirm</button>
               </div>
-              <div>
-                <strong>Experiation date</strong>
-                <input type="month">
+              <img src="Credit-cards.jpg" width="40%" alt="">
+            </div>
+            <div class="current-membership-container">
+                <h1>Membership</h1>
+                <div class="current-membership">
+                  <div>
+                    <strong>Current membership</strong>
+                  <button>Current membership</button>
+                  <!--Skulle med Javascript eller liknande lägga till funktionen att knappen byter värde och kan ta en till respektive medlemskap.-->
+                  </div>
+                  <div>
+                  <strong>Membership perks</strong>
+                  <p>
+                    <ul>
+                      <li>
+                        You get access to additional programs
+                      </li>
+                      <li>
+                        You get pre-access to upcoming programs
+                      </li>
+                      <li>
+                        Personal dialog with a profesional trainer
+                      </li>
+                      <li>
+                        Granted permission to video instructions of our programs
+                      </li>
+                    </ul>
+                  </p>
               </div>
-            </select>
-          </div>
-        </div>
+         </div>
+       </div>
       </div>
+     </div>
     </main>
     <footer>
       <nav>

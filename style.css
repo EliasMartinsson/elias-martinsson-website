@@ -23,6 +23,10 @@ h1 {
   margin: 10px;
 }
 
+h2{
+  font-size: 50px;
+}
+
 .logo {
   border-color: black;
   border-radius: 50%;
@@ -30,6 +34,10 @@ h1 {
 }
 
 .logo:hover {
+  border-color: #caa612;
+}
+
+button:hover{
   border-color: #caa612;
 }
 
@@ -120,7 +128,7 @@ footer {
   border-color: black;
 }
 
-.contentrow1 {
+.contentrow {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -131,36 +139,25 @@ footer {
 .scroll p{
   margin: 20px;
   padding: 2%;
+  
 }
 
-.contentrow1 div {
+.contentrow div {
   border-color: black;
   border-style: solid;
   border-width: 3px;
   background-color: white;
-}
-
-.contentrow1 p {
-  padding: 5%;
-}
-.contentrow2 {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-top: 2%;
-  padding: 2%;
-  gap: 20px;
+  
 }
 
-.contentrow2 div {
-  border-color: black;
-  border-style: solid;
-  border-width: 3px;
-  background-color: white;
-}
-.contentrow2 p {
+.contentrow p {
+  display: flex;
   padding: 5%;
+  width: 15%;
+ 
 }
+
 .accountavatar {
   width: 200%;
   border-radius: 25%;
@@ -221,6 +218,7 @@ footer {
 .descriptions {
   display: flex;
   justify-content: space-around;
+  max-width: 100%;
   margin: 5%;
   background-color: white;
 }
@@ -283,13 +281,29 @@ footer {
   text-align: center;
 }
 
-.column p {
+.column div{
   border-color: black;
   border-width: 1%;
   border-style: solid;
   padding: 10%;
   background-color: white;
-  margin-bottom: 5%;
+}
+
+.nutrition .column div {
+  border-color: black;
+  border-width: 1%;
+  border-style: solid;
+  padding: 10%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.column div:hover{
+  border-color: #caa612;
+}
+
+h2{
+  font-size: 50px;
 }
 
 .column img {
@@ -321,6 +335,7 @@ footer {
   display: flex;
   flex-direction: column;
   margin: 50px;
+  gap:20px;
 }
 
 .subscriptions h1 {
@@ -338,7 +353,7 @@ footer {
   border: black solid;
   border-width: 2%;
   padding: 3%;
-  width: 100%;
+  width: 70%;
 }
 
 .avatar-container{
@@ -362,7 +377,8 @@ footer {
   justify-content: center;
   align-content: center;
   margin-right: 20%;
-  margin-left: 20%;
+  margin-left: 30%;
+  margin-top: 10px;
 }
 
 .profile img {
@@ -392,5 +408,51 @@ footer {
 }
 
 .payment-details{
-  border-width: 0;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  background-color: gray;
+  margin: 5px;
+}
+
+.credit-card-form{
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-details div{
+  border: 0;
+}
+
+.payment-details button{
+display: flex;
+justify-content: left;
+background-color:greenyellow;
+}
+
+.current-membership-container{
+  display: flex;
+  justify-content: right;
+  background-color: gray;
+}
+
+.current-membership{
+display: flex;
+justify-content: right;
+background-color: white;
+}
+
+.accountsettings div{
+  border: 0;
+}
+
+.accountaccess{
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  border-width: 10px;
+}
+
+.contact{
+  margin: 30px;
 }
