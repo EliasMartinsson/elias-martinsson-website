@@ -294,6 +294,8 @@ footer {
   border-width: 1%;
   border-style: solid;
   padding: 10%;
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: white;
   border-radius: 50%;
 }
@@ -308,6 +310,8 @@ h2{
 
 .column img {
   width: 50%;
+  border-radius: 50%;
+  border: 5px black solid;
 }
 
 .nutrition {
@@ -355,6 +359,7 @@ h2{
   padding: 3%;
   width: 70%;
 }
+
 
 .avatar-container{
   margin-top: 20px;
@@ -442,15 +447,17 @@ justify-content: right;
 background-color: white;
 }
 
-.accountsettings div{
-  border: 0;
-}
-
 .accountaccess{
   display: flex;
   flex-direction: column;
   background-color: gray;
-  border-width: 10px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+.accountaccess div{
+  border: 0;
 }
 
 .contact{
